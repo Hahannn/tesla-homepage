@@ -1,0 +1,32 @@
+.button {
+    background-color: rgba(23, 26, 31, 0.8);
+    width: 256px;
+    height: 48px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.button > a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+.button__white{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.button__white > a{
+    color: black;
+}
+
+@media (max-width: 700px){
+    .button{
+        width: 200px;
+        margin-bottom: 40px;
+    }
+}
