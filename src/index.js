@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Nav from './Nav';
+import Header from './components/Header.js';
 
 ReactDOM.render(
 <div>
-  <Nav />
-</div>
+  <Header />
+</div>  
 , document.getElementById('root'));
